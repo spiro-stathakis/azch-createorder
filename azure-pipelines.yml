@@ -48,7 +48,7 @@ stages:
     pool:
       vmImage: ubuntu-latest
 
-    environment: 'team1.dev' # name of the environment to target [env name.namespace]. This will pull in the Kubernetes service connection automatically
+    environment: 'dev.dev' # name of the environment to target [env name.namespace]. This will pull in the Kubernetes service connection automatically
 
     strategy:
       runOnce:
